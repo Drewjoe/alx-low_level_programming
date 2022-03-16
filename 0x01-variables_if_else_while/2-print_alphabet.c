@@ -10,10 +10,10 @@
 
 int main(void)
 {
-	char low_alphabet[26] = "abcdefghijklmnopqrstuvwxyz" ;
+	char low_alphabet[27] = "abcdefghijklmnopqrstuvwxyz";
 	int i;
 
-	for (i = 0 ; i < 26 ; i++)
+	for (i = 0 ; i < 27 ; i++)
 	{
 		putchar(low_alphabet[i]);
 	}
