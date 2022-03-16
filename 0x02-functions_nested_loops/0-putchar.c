@@ -1,10 +1,9 @@
+ #include main.h                   
 /**
  * main - Entry Block
   *Description: A program that prints _putchar, followed by a new line
  * Return: 0
  */
- #include "main.h"
- #include <stdio.h>
 
 int main(void)
 {
