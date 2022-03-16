@@ -10,7 +10,7 @@
 
 int main(void)
 {
-	char low_alphabet[26] = "abcdefghijklmnopqrstuvwxyz";
+	char low_alphabet[26] = "abcdefghijklmnopqrstuvwxyz ";
 	int i;
 
 	for (i = 0 ; i < 26 ; i++)
