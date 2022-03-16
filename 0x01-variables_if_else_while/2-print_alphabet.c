@@ -10,12 +10,12 @@
 
 int main(void)
 {
-	char low_alphabet;
+	char low_alphabet[26] = "abcdefghijklmnopqrstuvwxyz";
 	int i;
 
-	for (i = 'a'; i <= 'z'; i++)
+	for (i = 0 ; i < 26 ; i++)
 	{
-		putchar(i);
+		putchar(low_alphabet[i]);
 		putchar('\n');
 	}
 	return (0);
