@@ -4,20 +4,17 @@
   *Description: A function that prints alphabet in lowercase, followed by a new line
  * Return: 0 (Success)
  */
-void print_alphabet(void)
+int main()
 {
   char letter;
+  letter = 'a';
 
-  letter = 'a'
-  while (letter <= 'z')
-  {
-    _putchar(letter);
-    letter++
-  }
-  int main(void)
-  {
-    print_alphabet();
-  }
-  _putchar('\n');
-	return (0);
+  while (letter <= 'z');
+  _putchar("%c" , letter);
+
+  _putchar('\n')
+  return 0;
+}
+void print_alphabet(void)
+{
 }
