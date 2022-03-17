@@ -5,7 +5,7 @@
  * Return: 0 (Success)
  */
 void print_alphabet(void);
-{
+
   char letter;
   letter = 'a';
   {
