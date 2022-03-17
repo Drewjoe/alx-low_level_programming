@@ -4,7 +4,7 @@
   *Description: A function that prints alphabet in lowercase, followed by a new line
  * Return: 0 (Success)
  */
-int main()
+int main(void)
 {
   char letter;
   letter = 'a';
