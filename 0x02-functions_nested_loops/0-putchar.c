@@ -4,8 +4,9 @@
   *Description: A program that prints _putchar, followed by a new line
  * Return: 0
  */
-int main(char _putchar)
+int main(void)
 {
+	_putchar("_putchar");
 	_putchar('\n');
-	return (_putchar);
+	return (0);
 }
