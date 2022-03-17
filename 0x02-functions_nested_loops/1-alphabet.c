@@ -12,6 +12,6 @@ int main()
   while (letter <= 'z');
   _putchar(letter);
 
-  _putchar('\n')
-  return 0;
+  _putchar('\n');
+  return (0);
 }
