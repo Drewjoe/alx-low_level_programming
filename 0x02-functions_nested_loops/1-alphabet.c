@@ -10,7 +10,7 @@ int main()
   letter = 'a';
 
   while (letter <= 'z');
-  _putchar("%c" , letter);
+  _putchar(letter);
 
   _putchar('\n')
   return 0;
