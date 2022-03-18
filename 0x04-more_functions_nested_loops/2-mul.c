@@ -5,11 +5,8 @@
  * mul - multiply 2 nuber
  *
  * @a:integer
- *
- *  @b:integer
- *
+ * @b:integer
  * Return: Success integer.
- *
  */
 int mul(int a, int b)
 {
