@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * Main: Print_alphabet_x10
- * Desription: Prints 10 times the alphabet 10 timeusing _putchar
+ * print_alphabet_x10 - print the alphabet 10 times
+ * Desription: using _putchar
  * Function: Print_alphabet_x10
  * Return: Always 0.
  */
