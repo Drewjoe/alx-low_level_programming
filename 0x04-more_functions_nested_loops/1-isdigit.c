@@ -2,13 +2,13 @@
 
 /**
  *
- * * _isdigit - check digit.
+ * _isdigit - check digit.
  *
- * * @c: integer
+ * @c: integer
  *
  * Return: 1 success
  *
- * */
+ */
 
 int _isdigit(int c)
 
