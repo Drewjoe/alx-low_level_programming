@@ -3,13 +3,12 @@
 /**
  *
  * _isdigit - check digit.
- *
+ * Description: Checks for a digit
  * @c: integer
  *
  * Return: 1 success
  *
  */
-
 int _isdigit(int c)
 
 {
