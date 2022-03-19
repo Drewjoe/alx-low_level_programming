@@ -1,8 +1,9 @@
-#include "mainn.h"
+#include "main.h"
 
 /**
- * print_triangle - print a triangle using '#'
+ * print_triangle - display a triangle
  * @size: Size of triangle
+ * Return: void
  */
 void print_triangle(int size)
 {
