@@ -1,4 +1,5 @@
 #include "mainn.h"
+
 /**
  * print_triangle - print a triangle using '#'
  * @size: Size of triangle
