@@ -1,32 +1,29 @@
 #include "mainn.h"
-
 /**
  * print_triangle - print a triangle using '#'
  * @size: Size of triangle
  */
 void print_triangle(int size)
 {
-	int c, i, j;
+	int i, j, x;
 
-	c = 0;
-	i = size - 1;
-	while (c < size)
+	if (size > 0)
 	{
-		i = size - 1 - c;
-		j = c + 1;
-		while (i > 0)
+		for (i = 1; i <= size; i++)
 		{
-			_putchar(' ');
-			i--;
+			for (j = 0; j <= (size - i - 1); j++)
+			{
+				_putchar(' ');
+			}
+			for (x = 0; x <= i - 1; x++)
+			{
+				_putchar('#');
+			}
+			_putchar('\n');
 		}
-		while (j > 0)
-		{
-			_putchar('#');
-			j--;
-		}
-		_putchar('\n');
-		c++;
 	}
-	if (size <= 0)
+	else
+	{
 		_putchar('\n');
+	}
 }
