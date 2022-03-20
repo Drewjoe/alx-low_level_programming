@@ -1,9 +1,7 @@
 #include "main.h"
 
 /**
- *
- * mul - multiply 2 nuber
- *
+ * mul - multiply 2 numbers
  * @a:integer
  * @b:integer
  * Return: Success integer.
