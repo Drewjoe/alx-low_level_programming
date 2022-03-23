@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main prints a[2] = 98
+ * magic - prints a[2] = 98
  * do not use variable a
  * do not allowed to modify variable p and do not use ,
  * code should be written at line 19
