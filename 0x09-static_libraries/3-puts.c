@@ -5,14 +5,14 @@
  * @str:pointer char
  * return:void
  */
-void _puts(char *s)
+void _puts(char *str)
 {
 	int i;
 
-	for (i = 0; *s != '\0'; i++)
+	for (i = 0; *str != '\0'; i++)
 	{
-		_putchar(*s);
-		s++;
+		_putchar(*str);
+		str++;
 	}
 	_putchar('\n');
 }
