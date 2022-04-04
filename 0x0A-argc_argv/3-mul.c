@@ -16,12 +16,9 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		return (1);
 	}
-	else
-	{
-		r = atoi(argv[1]);
-		s = atoi(argv[2]);
-		c = r * s;
-		printf("%d\n", q);
-	}
+	r = atoi(argv[1]);
+	s = atoi(argv[2]);
+	c = r * s;
+	printf("%d\n", q);
 	return (0);
 }
