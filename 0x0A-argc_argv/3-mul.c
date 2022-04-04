@@ -9,18 +9,18 @@
  */
 int main(int argc, char *argv[])
 {
-	int q, r, s;
+	int q, r;
 
-	if (argc != 3)
+	if (argc == 1 || argc == 2)
 	{
 		printf("Error\n");
 		return (1);
 	}
 	else
 	{
-		r = atoi(argv[1]);
-		s = atoi(argv[2]);
-		c = r * s;
+		r = 1;
+		for (q = 1; q < 3; q++)
+			r *= atoi(argv[i]);
 		printf("%d\n", q);
 	}
 	return (0);
