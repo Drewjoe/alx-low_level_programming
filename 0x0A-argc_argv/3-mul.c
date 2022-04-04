@@ -9,7 +9,7 @@
  */
 int main(int argc, char *argv[])
 {
-	int q, r;
+	int a, b;
 
 	if (argc == 1 || argc == 2)
 	{
@@ -18,10 +18,10 @@ int main(int argc, char *argv[])
 	}
 	else
 	{
-		r = 1;
-		for (q = 1; q < 3; q++)
-			r *= atoi(argv[q]);
-		printf("%d\n", q);
+		b = 1;
+		for (a = 1; a< 3; a++)
+			b *= atoi(argv[a]);
+		printf("%d\n", b);
 	}
 	return (0);
 }
