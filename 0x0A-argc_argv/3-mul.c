@@ -1,28 +1,28 @@
 #include "main.h"
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
- * main - multiplies two numbers
- * @argc: number of arguments passed to the function
- * @argv: argument vector of pointers to strings
- * Return: 0 if no errors, else 1
+ * main - print result of of multication
+ * @argc: count the integer of an  argument
+ * @argv: an array of strings in an argument
+ * Return: Error if no argument passed else Success
  */
 int main(int argc, char *argv[])
 {
-	int a, b;
+	int a, i, j;
 
-	if (argc == 1 || argc == 2)
+	if (argc != 3)
 	{
 		printf("Error\n");
 		return (1);
 	}
 	else
 	{
-		b = 1;
-	
-		for (a = 1; a < 3; a++)
-			b *= atoi(argv[a]);
-		printf("%d\n", b);
+		i = atoi(argv[1]);
+		j = atoi(argv[2]);
+		a = i * j;
+		printf("%d\n", a);
 	}
-	return (0);
+		return (0);
 }
