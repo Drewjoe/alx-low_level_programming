@@ -3,9 +3,9 @@
 #include <stdlib.h>
 
 /**
- * main - create an array of characters
- * @unsigned int: creates positive int
- * @char c:initialise character argument
+ * create_array - create an array of characters
+ * @size: creates positive int
+ * @c:initialise character argument
  * Return: NULL
  */
 char *create_array(unsigned int size, char c)
