@@ -17,14 +17,12 @@ void _is_zero(char *argv[])
 			isn1 = 0;
 			break;
 		}
-
 	for (i = 0; argv[2][i]; i++)
 		if (argv[2][i] != '0')
 		{
 			isn2 = 0;
 			break;
 		}
-
 	if (isn1 == 1 || isn2 == 1)
 	{
 		printf("0\n");
@@ -35,8 +33,7 @@ void _is_zero(char *argv[])
 /**
  * _initialize_array - set memery to zero in a new array
  * @ar: char array.
- * @lar: length of the char array.
- *
+ * @lar: length of the char array
  * Return: pointer of a char array.
  */
 char *_initialize_array(char *ar, int lar)
@@ -53,8 +50,7 @@ char *_initialize_array(char *ar, int lar)
  * _checknum - determines length of the number
  * and checks if number is in base 10.
  * @argv: arguments vector.
- * @n: row of the array.
- *
+ * @n: row of the array
  * Return: length of the number.
  */
 int _checknum(char *argv[], int n)
@@ -72,8 +68,7 @@ int _checknum(char *argv[], int n)
 }
 
 /**
- * main - Entry point.
- * program that multiplies two positive numbers.
+ * main - a program that multiplies two positive numbers.
  * @argc: number of arguments.
  * @argv: arguments vector.
  *
