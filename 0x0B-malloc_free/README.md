@@ -8,4 +8,6 @@ The task varies from;
 - Return a pointer to a newly allocated space in memory
 - Write a function that concatenates two string
 - Return a pointer to a 2 dimensional array of integers.
-- Frees a 2 dimensional grid previously created etc.
+- Frees a 2 dimensional grid previously created.
+- Concatenates all the arguments of your program.
+- Splits a string into words.
