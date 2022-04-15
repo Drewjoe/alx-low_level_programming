@@ -22,10 +22,10 @@ void print_opcodes(char *a, int n)
 }
 
 /**
- * main - prints opcode of its own main func                                          
- * @argc: number of arguments passed to the func                                      
- * @argv: array of pointers to arguments                                                  
- * Return: int                                                                            
+ * main - prints opcode of its own main func
+ * @argc: number of arguments passed to the func
+ * @argv: array of pointers to arguments
+ * Return: int
  */
 int main(int argc, char **argv)
 {
