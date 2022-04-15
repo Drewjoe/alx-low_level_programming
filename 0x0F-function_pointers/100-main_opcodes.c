@@ -24,7 +24,7 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		exit(2);
 	}
-	y = (char *)main;
+	y = (char *) main;
 	i = 0;
 	if (a > 0)
 	{
