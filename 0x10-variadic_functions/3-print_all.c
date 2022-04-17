@@ -4,43 +4,43 @@
 #include <stdlib.h>
 
 /**
- * print_c - prints a character
- * @c: char to print
+ * print_char - prints a character
+ * @list: char to print
  * Return: void
  */
-void print_char(va_list c)
+void print_char(va_list list)
 {
-	printf("%c", va_arg(c, int));
+	printf("%c", va_arg(list, int));
 }
 
 /**
  * print_int - prints an integer
- * @int: integer to print
+ * @list: integer to print
  * Return: void
  */
-void print_int(va_list i)
+void print_int(va_list list)
 {
-	printf("%d", va_arg(i, int));
+	printf("%d", va_arg(list, int));
 }
 
 /**
  * print_float - prints a float
- * @f: float to print
+ * @list: float to print
  * Return: void
  */
-void print_float(va_list f)
+void print_float(va_list list)
 {
-	printf("%f", va_arg(f, double));
+	printf("%f", va_arg(list, double));
 }
 
 /**
- * print_string - prints a string
- * @s: string to print
+ * print_str - prints a string
+ * @list: string to print
  * Return: void
  */
-void print_str(va_list s)
+void print_str(va_list list)
 {
-	char *str = va_arg(s, char *);
+	char *str = va_arg(list, char *);
 
 	if (str == NULL)
 		str = "(nil)";
