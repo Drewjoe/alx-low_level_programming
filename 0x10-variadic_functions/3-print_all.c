@@ -50,6 +50,7 @@ void print_str(va_list list)
 /**
  * print_all - prints anything
  * @format: list of types of arguments passed to the function
+ * Return: void
  */
 void print_all(const char * const format, ...)
 {
@@ -62,7 +63,7 @@ void print_all(const char * const format, ...)
 		{NULL, NULL}
 	};
 	va_list list;
-	char *sep = "";
+	char *separator = "";
 
 	va_start(list, format);
 	i = 0;
@@ -73,9 +74,9 @@ void print_all(const char * const format, ...)
 		{
 			if (*(p[j].t) == format[i])
 			{
-				printf("%s", sep);
+				printf("%s", separator);
 				p[j].f(list);
-				sep = ", ";
+				separator = ", ";
 				break;
 			}
 			j++
