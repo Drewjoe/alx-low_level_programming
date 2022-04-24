@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * ptint_list - prints all the element of a list
+ * print_list - prints all the element of a list
  * @h: pointer to the list
  * Return: number of nodes
  */
@@ -20,5 +20,5 @@ size_t print_list(const list_t *h)
 		new = new->next;
 		len++;
 	}
-	return(len);
+	return (len);
 }
