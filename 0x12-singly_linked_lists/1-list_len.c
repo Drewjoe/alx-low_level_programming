@@ -7,14 +7,14 @@
  */
 size_t list_len(const list_t *h)
 {
-	size_t len = 0;
-	int i;
-	const list_t *c = h;
+	size_t len;
+	len = 0;
 
-	for (i = 0; c; i++)
+	while (h != NULL)
 	{
-		c = c->next;
+		h = h->next;
 		len++;
 	}
 	return (len);
+
 }
