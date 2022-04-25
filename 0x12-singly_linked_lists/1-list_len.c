@@ -1,9 +1,9 @@
-#include "list.h"
+#include "lists.h"
 
 /**
- * list_len - returns number of element in a list
- * @h: pointer to string
- * Return: list
+ * list_len - number of elements in a linked list_t list.
+ * @h: pointer
+ * Return: number of nodes in the list
  */
 size_t list_len(const list_t *h)
 {
