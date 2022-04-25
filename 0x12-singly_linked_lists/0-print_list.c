@@ -1,5 +1,3 @@
-#include <stdio.h>
-#include <stdlib.h>
 #include "lists.h"
 
 /**
@@ -9,21 +7,18 @@
  */
 size_t print_list(const list_t *h)
 {
-	size_t e = 0;
+	size_t len = 0;
+	int i;
+	const list_t *c = h;
 
-	while (h != NULL)
+	for (i = 0; c; i++)
 	{
-		if (h->str == NULL)
-		{
+		if (c->str == NULL)
 			printf("[0] (nil)\n");
-			h = h->next;
-		}
 		else
-		{
-			printf("[%u] %s\n", h->len, h->str);
-			h = h->next;
-		}
-		e++;
+			printf("[%d] %s\n", c->len, c->str);
+		c = c->next;
+		len++;
 	}
-	return (e);
+	return (len);
 }
