@@ -13,7 +13,7 @@ To look into the concepts of a doubly linked list, what it is and how to use it.
 - The prototypes of all your functions should be included in your header file called lists.h
 - All your header files should be include guarded
 
-##| Task | Description |
+| Task | Description |
 | :------ | ----------- |
 | **`0-print_dlistint.c`** | Write a function that prints all the elements of a _`dlistint_t`_ list. |
 | **`1-dlistint_len.c`** | Write a function that returns the number of elements in a _`linked dlistint_t`_ list. |
