@@ -2,7 +2,7 @@
 
 /**
  * add_dnodeint_end - add element at the end of the list
- * @head:list
+ * @head: pointer to list
  * @n:element in list
  * Return:new element or NULL if failed
  */
