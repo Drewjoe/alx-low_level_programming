@@ -1,10 +1,10 @@
 #include "lists.h"
 
-/*
-* print_dlistint - prints all the elements of a dlistint_t list.
-* @h: pointer to list
-* Return: number of nodes
-*/
+/**
+ * print_dlistint - print element in list
+ * @h: pointer to list
+ * Return:list len
+ */
 size_t print_dlistint(const dlistint_t *h)
 {
 	int i;
@@ -16,5 +16,5 @@ size_t print_dlistint(const dlistint_t *h)
 		h = h->next;
 		len++;
 	}
-	return (len);
+return (len);
 }
